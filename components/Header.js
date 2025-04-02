@@ -11,16 +11,15 @@ export default function Header(){
 
 const styles = StyleSheet.create({
     header:{
-        backgroundColor: "darkblue",
-        width: "100%",
-        height: "2rem",
+        backgroundColor: "#955157",
+        width: "auto",
+        height: "20vh",
         alignItems: "center",
-        padding: "6rem"
+        justifyContent: "center"
+
     },
     headerText:{
         fontSize:28,
-        color: "white",
-
-
+        color: "#fff4f8",
     }
 })

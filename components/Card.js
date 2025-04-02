@@ -12,9 +12,11 @@ export default function Card(){
 const styles = StyleSheet.create({
     card:{
         margin: 20,
-        backgroundColor: 'rgb(29, 40, 75)',
-        padding:100,
+        padding: "10rem",
+        borderRadius: "2rem",
+        backgroundColor: '#b07a7f',
         alignItems: 'center',
+        width: "5rem",
     },
     cardText:{
         fontSize:28,
